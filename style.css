@@ -1,4 +1,107 @@
-p{
-    color: red;
-    background-color: aquamarine;
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    text-align: center;
+}
+header{
+    margin: 0.5rem;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    gap: 1rem;
+}
+header img{
+    width: 3rem;
+    height: 1rem;
+    border: 1px solid black;
+    border-radius: 50%;
+    text-align: center;
+}
+header h2{
+    font-size: 1.5rem;
+    font-weight: 900;
+}
+main h2{
+    margin-top: 7rem;
+    font-size: 3rem;
+    font-weight: 900;
+}
+main p{
+    font-size: 1.25rem;
+    font-weight: 400;
+    color: rgb(70, 63, 63);
+}
+.forms{
+    
+}
+.input{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+.input label{
+    margin-left: -14rem;
+    font-size: 1rem;
+}
+.input input{
+    padding: 10px;
+    background-color: aliceblue;
+    border-radius: 0.5rem;
+    width: 18rem;
+    height: 2rem;
+    text-align: center;
+    border: 1px solid white;
+}
+.checkbox{
+   margin-top: -1rem;
+   margin-left: -11rem;
+   font-size: 1rem;
+}
+.forgetpassword{
+    margin-top: -1rem;
+    margin-left: 11rem;
+    font-size: 1rem;
+}
+.forgetpassword a{
+    text-decoration: none;
+    color: black;
+}
+.signin{
+    margin: 1rem;
+}
+.signin button{
+    width: 18rem;
+    height: 2rem;
+    background-color: black;
+    color: white;
+    border-radius: 0.5rem;
+    border: 1px solid white;
+}
+.gsignin button{
+    width: 18rem;
+    height: 2rem;
+    background-color: rgb(254, 254, 254);
+    color: rgb(0, 0, 0);
+    border-radius: 0.5rem;
+    border: 1px solid #dcdcdc;
+}
+.gsignin button img{
+    margin-top: 0.15rem;
+    width: 2rem;
+    height: 1rem;
+}
+
+footer{
+    margin-top: 8rem;
+}
+footer p{
+    color: rgb(70, 63, 63);
+}
+footer a{
+    text-decoration: none;
+    color:  black;
+    font-weight: bold;
 }

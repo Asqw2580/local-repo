@@ -1,4 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT-CZFEzVsf8gQ78Ot4TeUssTTrzLoSlHAmB9Zmop73S3XBDVMyT3b0_57O&s=10" alt="logo prerna">
+        <h2>Prerna Multi Service</h2>
+    </header>
+    <main class="main">
+        <h2>Welcome Back </h2>
+        <p>Enter your email and password to access your account</p>
 
-<p>This is a new repo.</p>
-<p>This ia a new feature (droupdown).</p>
-<p>This is a new feature (Button).</p>
+        <div class="forms">
+            <form action="/#">
+                <div class="input">
+                    <label for="email"> Email:</label>
+                    <input type="email" name="email" id="email" placeholder="Enter your email" required>
+                </div>
+                <div class="input">
+                    <label for="password">Password:</label>
+                    <input type="password" name="password" id="password" placeholder="Enter your password" required>
+                </div>
+                <div class="checkbox">
+                    <input type="checkbox" id="checkbox">
+                    <label for="checkbox">Remember me</label>
+                </div>
+                <div class="forgetpassword">
+                    <a href="#">Forgot Password</a>
+                </div>
+                <div class="signin">
+                    <button type="submit">Sign In</button>
+                </div>
+                <div class="gsignin">
+                    <button type="submit"><img src="https://media.wired.com/photos/5926ffe47034dc5f91bed4e8/3:2/w_2560%2Cc_limit/google-logo.jpg" alt="">Sign In with Google</button>
+                </div>
+            </form>
+        </div>
+    </main>
+    <footer>
+        <p>Don't have an account ? <a href="#">Sign Up</a></p>
+    </footer>
+    <script src="app.js"></script>
+</body>
+</html>
